@@ -1,0 +1,64 @@
+#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
+}
+
+p ~ span {
+	border:solid;
+	border-radius: 5px;
+	background-image: url(receta.jpg);
+	margin: 10px;
+	width: 17%;
+	float: left;
+
+}
+
+.resumen h2{
+	font-variant: small-caps;
+}
+
+.resumenes{
+	border-bottom: solid 2px ;
+	margin-right: 10px;
+	height: 200px;
+}
+
+.categoria{
+	color: #d69f2a;
+}
+
+.descripcion{
+	margin-top: 2px;
+}
+
+.detalles{
+	border: dashed 1pt #e0d2b1;
+	margin:10px;
+	
+}
+
+span.datos{
+	float: right;
+	width: 70%
+}
+
+img{
+	width: 18%
+}
+
+h2 a{
+	color: #db990a;
+}
+
+h2 a:hover{
+	text-decoration: none;
+	color: #edc163;
+	
+}
+
+a:visited { 
+    color: #7c652e;
+}
+
+

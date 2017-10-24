@@ -1,0 +1,61 @@
+*{
+	font-family: "Verdana";
+}
+
+header > h1{
+	font-family: "Anton";
+	color: #414239;
+	font-size: 4em;
+}
+
+.contenedor{
+	padding: 10px;
+	border-bottom: 1px solid #d7d8cb;
+	margin-top: 10px;
+	height: 400px;
+}
+.contenedor > span > p{
+	text-align: justify;
+}
+
+.contenedor h2{
+	font-family: "Lobster";
+	color: #9e0947;
+	font-size: 2.5em;
+}
+
+span{
+	float: left;
+	width:23%;
+	margin-right: 10px;
+}
+
+video source{
+	float: right;
+	margin-right: 10px;
+}
+
+.last{
+    clear: left;
+}
+
+.subtitulo{
+	color: #ce105c;
+	font-size: 1em;
+}
+
+li[famoso="principal"]{
+	font-weight: bold;
+}
+
+li[famoso="secundario"]{
+	font-style: italic;
+}
+
+ul{
+	list-style-image: url('play.svg');
+}
+
+span img:hover{
+	opacity: 0.8;
+}

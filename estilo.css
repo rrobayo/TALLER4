@@ -1,0 +1,58 @@
+body{
+	margin:5% 10%;
+}
+h1{
+	background-color: yellow;
+}
+.contenedor{
+	border: solid 1px #cbccc1;
+	padding: 5px;
+	margin:10px;
+	
+}
+
+header > h1{
+	text-align: center;
+}
+
+ span#foto img{
+ 	width: 15%
+	margin-left:10px;
+}
+
+ul{
+	list-style: none;
+}
+
+span#datos{
+	float: right;
+	width: 70%
+}
+
+ #centrado{
+ 	text-align: center;
+ }
+ .institucion{
+ 	font-weight: bold;
+ }
+
+ #Universidad{
+ 	border-bottom: 2px solid #cbccc1;
+ 	margin-bottom: 5px;
+ }
+
+ div.habilidad > div{
+ 	border:solid  1px #cbccc1;
+ 	display: inline-block;
+ 	border-radius: 1em;
+ 	padding: 1pt;
+ }
+
+ div.habilidad div:first-child{
+ 	background-color: #364ab4;
+ }
+
+  div.habilidad div:last-child{
+
+ }
+ 
